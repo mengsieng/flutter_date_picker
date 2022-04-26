@@ -48,6 +48,8 @@ part 'strings_ht.dart';
 
 part 'strings_sv.dart';
 
+part 'strings_kh.dart';
+
 abstract class _StringsI18n {
   const _StringsI18n();
 
@@ -139,6 +141,9 @@ enum DateTimePickerLocale {
 
   /// Swedish (SV)
   sv,
+
+  /// Khmer (KH)
+  kh,
 }
 
 /// Default value of date locale
